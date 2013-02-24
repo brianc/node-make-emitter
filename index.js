@@ -1,10 +1,10 @@
 var EventEmitter = require('events').EventEmitter;
-var util = require('util');
+var inherits = require('inherits');
 
 var makeEmitter = module.exports = function() {
   var Constructor = function Emitter() {
     EventEmitter.call(this);
   };
-  util.inherits(Constructor, EventEmitter);
+  inherits(Constructor, EventEmitter);
   return Constructor;
 };

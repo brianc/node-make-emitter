@@ -1,6 +1,6 @@
 {
   "name": "make-emitter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "event emitter constructor factory",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
     "events"
   ],
   "author": "Brian M. Carlson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inherits": "~1.0.0"
+  }
 }
