@@ -21,7 +21,7 @@ var emitter = require('make-emitter');
 var CustomEmitter = emitter();
 ```
 
-YOU JUST SAVED OVER 4 LINES OF CODE. incredible.
+incredible.
 
 ## install
 ```
