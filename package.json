@@ -1,0 +1,19 @@
+{
+  "name": "make-emitter",
+  "version": "0.0.1",
+  "description": "event emitter constructor factory",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianc/node-make-emitter.git"
+  },
+  "keywords": [
+    "EventEmitter",
+    "events"
+  ],
+  "author": "Brian M. Carlson",
+  "license": "MIT"
+}
