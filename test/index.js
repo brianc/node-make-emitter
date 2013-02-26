@@ -15,4 +15,14 @@ describe('make-emitter', function() {
     assert(thing instanceof EventEmitter);
     assert.equal('function', typeof thing.emit);
   });
+
+  it('applies config object to emitter prototype', function() {
+    var Thing = makeEmitter({
+      isTrue: function(bool) {
+        return bool === true;
+      }
+    });
+    assert.equal('function', typeof Thing.prototype.isTrue);
+    assert(new Thing().isTrue(true));
+  });
 });
