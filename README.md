@@ -1,5 +1,7 @@
 # make-emitter
 
+[![Build Status](https://travis-ci.org/brianc/node-make-emitter.png)](https://travis-ci.org/brianc/node-make-emitter)
+
 An event emitter constructor factory.  Save ~3 lines of code with each use!
 
 ## api
