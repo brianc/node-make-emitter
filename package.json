@@ -18,5 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "inherits": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
